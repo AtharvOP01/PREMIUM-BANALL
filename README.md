@@ -1,7 +1,5 @@
 🫧🇵ʀᴇᴍɪᴜᴍ 🇧ᴀɴ-ᴀʟʟ
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/yourbotrepo.svg?style=social)](https://github.com/PRADHAN474/BANALL-USERBOT)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/yourbotrepo.svg?style=social)](https://github.com/PRADHAN474/BANALL-USERBOT/forks)
 
 ## About
 
